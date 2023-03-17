@@ -1,5 +1,5 @@
 ## About The Project
- WhatsApp chatbot using OpenAI API(gpt-3.5-turbo) and whatsapp-web.js, written in JS using Node.js
+ ChatGPT for WhatsApp using OpenAI API(gpt-3.5-turbo) and whatsapp-web.js, written in JS using Node.js
  
  ### Prerequisites
 
