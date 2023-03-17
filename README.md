@@ -14,7 +14,7 @@ npm install npm@latest -g
 
 1. Clone this Repo:
      ```sh
-     git clone https://github.com/iamkhalid2/whatbot_2.0.git
+     git clone https://github.com/iamkhalid2/WhatsAppGPT.git
      ```
  
 2. Install Dependencies:
