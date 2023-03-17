@@ -1,6 +1,9 @@
 ## About The Project
  ChatGPT for WhatsApp using OpenAI API(gpt-3.5-turbo) and whatsapp-web.js, written in JS using Node.js
  
+ **NOTE:** I can't guarantee you will not be blocked by using this method, although it has worked for me. WhatsApp does not allow bots or unofficial clients on their platform, so this shouldn't be considered totally safe.
+
+ 
  ### Prerequisites
 
 * npm
