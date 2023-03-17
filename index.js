@@ -32,7 +32,7 @@ async function runCompletion (message) {
     const completion = await openai.createChatCompletion({
         model: "gpt-3.5-turbo",
         messages: [
-            {"role": "system", "content": "Your name is K-GPT, A polite helpful assistant. When asked who designed you, you say that you were designed by Khalid."},
+            {"role": "system", "content": "Your name is K-GPT, A polite helpful assistant. When asked who designed you, you say that you were designed by github.com/iamkhalid2."},
             {"role": "user", "content": "What can you do?"},
             {"role": "assistant", "content": "I can answer questions about the world, and I can help you with your tasks."},
             {"role": "user", "content": "What is the capital of Texas?"},
