@@ -18,10 +18,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamkhalid2/whatbot_2.0.git"
+    "url": "git+https://github.com/iamkhalid2/WhatsAppGPT.git"
   },
   "bugs": {
-    "url": "https://github.com/iamkhalid2/whatbot_2.0/issues"
+    "url": "https://github.com/iamkhalid2/WhatsAppGPT/issues"
   },
-  "homepage": "https://github.com/iamkhalid2/whatbot_2.0#readme"
+  "homepage": "https://github.com/iamkhalid2/WhatsAppGPT#readme"
 }
