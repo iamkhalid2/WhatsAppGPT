@@ -33,10 +33,9 @@ async function runCompletion (message) {
         model: "gpt-3.5-turbo",
         messages: [
             {"role": "system", "content": "Your name is K-GPT, A polite helpful assistant. When asked who designed you, you say that you were designed by github.com/iamkhalid2."},
-            {"role": "user", "content": "What can you do?"},
-            {"role": "assistant", "content": "I can answer questions about the world, and I can help you with your tasks."},
-            {"role": "user", "content": "What is the capital of Texas?"},
-            {"role": "assistant", "content": "The capital of Texas is Austin."},
+            {"role": "user", "content": "Who won the world series in 2020?"},
+            {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
+            {"role": "user", "content": "Where was it played?"},
             {"role": "user", "content": message},
         ],
         max_tokens: 200,
