@@ -1,7 +1,7 @@
 {
   "name": "whatbot_2.0",
   "version": "1.0.0",
-  "description": "",
+  "description": "ChatGPT for WhatsApp using OpenAI API(gpt-3.5-turbo) and whatsapp-web.js, written in JS using Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,16 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "openai": "^3.2.1",
-    "openai-api": "^1.3.1",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.19.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkhalid2/whatbot_2.0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamkhalid2/whatbot_2.0/issues"
+  },
+  "homepage": "https://github.com/iamkhalid2/whatbot_2.0#readme"
 }
