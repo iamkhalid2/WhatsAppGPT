@@ -4,18 +4,19 @@
   "description": "ChatGPT for WhatsApp using OpenAI API(gpt-3.5-turbo) and whatsapp-web.js, written in JS using Node.js",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Khalid",
   "license": "ISC",
   "dependencies": {
+    "@google/generative-ai": "^0.21.0",
     "dotenv": "^16.0.3",
     "openai": "^3.2.1",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.19.4"
+    "whatsapp-web.js": "^1.26.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamkhalid2/WhatsAppGPT.git"
