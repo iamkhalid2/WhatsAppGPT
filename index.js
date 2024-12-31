@@ -59,7 +59,7 @@ client.on('message', async message => {
     if(message.body.startsWith("#")) {
         try {
             client.sendMessage(message.from, 'thinking...');
-            const result = await run(message.body.substring(7));
+            const result = await run(message.body.substring(1));
             await message.reply(result);
         } catch (error) {
             console.error('Error:', error);
